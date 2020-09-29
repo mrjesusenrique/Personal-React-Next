@@ -1,12 +1,12 @@
 import React from 'react';
 import Layout from '../components/Layout';
 
-const sobreMi = () => {
+const servicios = () => {
     return(
         <Layout>
-            <h1>Sobre mi</h1>
+            <h1>Servicios</h1>
         </Layout>
     );
 };
 
-export default sobreMi;
+export default servicios;

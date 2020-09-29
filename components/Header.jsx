@@ -3,6 +3,7 @@ import styles from '../styles/Header.module.css';
 import Link from 'next/link';
 
 const Header = () => {
+
     return (
         <header className={styles.header}>
             <div>
@@ -14,12 +15,43 @@ const Header = () => {
             </div>
             <nav className={styles.nav}>
                 <ul className={styles.list}>
-                    <li className={styles.item}><Link href=""><a>Inicio</a></Link></li>
-                    <li className={styles.item}><Link href=""><a>Blog</a></Link></li>
-                    <li className={styles.item}><Link href=""><a>Servicios</a></Link></li>
-                    <li className={styles.item}><Link href=""><a>Portafolio</a></Link></li>
-                    <li className={styles.item}><Link href=""><a>Sobre mi</a></Link></li>
-                    <li className={styles.item}><Link href=""><a>Contacto</a></Link></li>
+
+                    <li className={styles.item}>
+                        <Link href="/">
+                            <a>Inicio</a>
+                        </Link>
+                    </li>
+
+                    <li className={styles.item}>
+                        <Link href="/blog">
+                            <a>Blog</a>
+                        </Link>
+                    </li>
+
+                    <li className={styles.item}>
+                        <Link href="/servicios">
+                            <a>Servicios</a>
+                        </Link>
+                    </li>
+
+                    <li className={styles.item}>
+                        <Link href="/portafolio">
+                            <a>Portafolio</a>
+                        </Link>
+                    </li>
+
+                    <li className={styles.item}>
+                        <Link href="sobre-mi">
+                            <a>Sobre mi</a>
+                        </Link>
+                    </li>
+
+                    <li className={styles.item}>
+                        <Link href="/contacto">
+                            <a>Contacto</a>
+                        </Link>
+                    </li>
+
                 </ul>
             </nav>
         </header>
