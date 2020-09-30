@@ -8,9 +8,16 @@
 }
 
 .logoPersonal{
-  width: 170px;
-  height: 90px;
-  margin-left: 10px;
+  margin-top: 20px;
+  margin-left: 55px;
+  font-size: 1.7rem;
+  color: white;
+  transition: .7s;
+}
+
+.logoPersonal:hover{
+  transition: .7s;
+  transform: scale(1.1);
 }
 
 .nav{
@@ -29,6 +36,6 @@
 }
 
 .item:hover{
-  border-bottom: 2px solid White;
+  border-bottom: 2px solid #EFD81D;
 }
 

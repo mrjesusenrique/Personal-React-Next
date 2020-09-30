@@ -14,10 +14,11 @@ const Layout = ({ children }) => {
                 <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"></link>
             </Head>
 
-            {router.pathname === "/" ? (
+            {router.pathname === '/' ? (
                 <main>
                     {children}
                 </main>
+
             ) : (
                     <main>
                         <Header />
@@ -25,7 +26,6 @@ const Layout = ({ children }) => {
                     </main>
                 )
             }
-
 
         </>
     );

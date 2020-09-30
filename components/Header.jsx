@@ -6,10 +6,10 @@ const Header = () => {
 
     return (
         <header className={styles.header}>
-            <div>
+            <div className={styles.logoPersonal}>
                 <Link href="/">
                     <a>
-                        <img className={styles.logoPersonal} src="images/logo.png" alt="Logo Personal - Jesús Casañas Developer" />
+                        <h1>JC Developer</h1>
                     </a>
                 </Link>
             </div>
