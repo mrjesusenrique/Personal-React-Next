@@ -15,10 +15,11 @@ export default function Home() {
           <div className={styles.welcome}>
 
             <h1>Hola! Soy <strong className="font-light">Jesús Casañas</strong></h1>
-            <h1>Desarrollador Web Full Stack Jr.</h1>
+            <h1>Desarrollador Web Frontend Jr.</h1>
 
             <div className={styles.intro}>
-            
+              <p>Estudiante de la <Link href="https://www.educacionit.com/carrera-php"><a target="_blanck" className={styles.carreraE}>Carrera Full Stack PHP Web Developer en EducaciónIT</a></Link>.</p>
+              <p>Alumno autodidacta de la Plataforma <Link href="https://www.udemy.com/"><a target="_blanck" className={styles.carreraU} >Udemy</a></Link>.</p>
             </div>
 
             <div className={styles.buttons}>
