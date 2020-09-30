@@ -1,58 +1,121 @@
 import React from 'react';
-import styles from '../styles/Header.module.css';
+import stylesIndex from '../styles/HeaderIndex.module.css';
+import stylesOther from '../styles/HeaderOther.module.css';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 const Header = () => {
 
+    const router = useRouter();
+
     return (
-        <header className={styles.header}>
-            <div className={styles.logoPersonal}>
-                <Link href="/">
-                    <a>
-                        <h1>JC Developer</h1>
-                    </a>
-                </Link>
-            </div>
-            <nav className={styles.nav}>
-                <ul className={styles.list}>
+        <header className={stylesIndex.header}>
+            <div className={stylesIndex.logoPersonal}>
 
-                    <li className={styles.item}>
+                {router.pathname === "/" ? (
+
+                    <Link href="/">
+                        <a className={stylesIndex.colorLogo}>
+                            <h1>JC Developer</h1>
+                        </a>
+                    </Link>
+
+                ) : (
+
                         <Link href="/">
-                            <a>Inicio</a>
+                            <a className={stylesOther.colorLogo}>
+                                <h1>JC Developer</h1>
+                            </a>
                         </Link>
-                    </li>
+                    )}
 
-                    <li className={styles.item}>
-                        <Link href="/blog">
-                            <a>Blog</a>
-                        </Link>
-                    </li>
+            </div>
+            <nav className={stylesIndex.nav}>
 
-                    <li className={styles.item}>
-                        <Link href="/servicios">
-                            <a>Servicios</a>
-                        </Link>
-                    </li>
+                {router.pathname === '/' ? (
 
-                    <li className={styles.item}>
-                        <Link href="/portafolio">
-                            <a>Portafolio</a>
-                        </Link>
-                    </li>
+                    <ul className={stylesIndex.list}>
 
-                    <li className={styles.item}>
-                        <Link href="sobre-mi">
-                            <a>Sobre mi</a>
-                        </Link>
-                    </li>
+                        <li className={stylesIndex.item}>
+                            <Link href="/">
+                                <a>Inicio</a>
+                            </Link>
+                        </li>
 
-                    <li className={styles.item}>
-                        <Link href="/contacto">
-                            <a>Contacto</a>
-                        </Link>
-                    </li>
+                        <li className={stylesIndex.item}>
+                            <Link href="/blog">
+                                <a>Blog</a>
+                            </Link>
+                        </li>
 
-                </ul>
+                        <li className={stylesIndex.item}>
+                            <Link href="/servicios">
+                                <a>Servicios</a>
+                            </Link>
+                        </li>
+
+                        <li className={stylesIndex.item}>
+                            <Link href="/portafolio">
+                                <a>Portafolio</a>
+                            </Link>
+                        </li>
+
+                        <li className={stylesIndex.item}>
+                            <Link href="sobre-mi">
+                                <a>Sobre mi</a>
+                            </Link>
+                        </li>
+
+                        <li className={stylesIndex.item}>
+                            <Link href="/contacto">
+                                <a>Contacto</a>
+                            </Link>
+                        </li>
+
+                    </ul>
+                ) : (
+
+                        <ul className={stylesIndex.list}>
+
+                            <li className={stylesOther.item}>
+                                <Link href="/">
+                                    <a>Inicio</a>
+                                </Link>
+                            </li>
+
+                            <li className={stylesOther.item}>
+                                <Link href="/blog">
+                                    <a>Blog</a>
+                                </Link>
+                            </li>
+
+                            <li className={stylesOther.item}>
+                                <Link href="/servicios">
+                                    <a>Servicios</a>
+                                </Link>
+                            </li>
+
+                            <li className={stylesOther.item}>
+                                <Link href="/portafolio">
+                                    <a>Portafolio</a>
+                                </Link>
+                            </li>
+
+                            <li className={stylesOther.item}>
+                                <Link href="sobre-mi">
+                                    <a>Sobre mi</a>
+                                </Link>
+                            </li>
+
+                            <li className={stylesOther.item}>
+                                <Link href="/contacto">
+                                    <a>Contacto</a>
+                                </Link>
+                            </li>
+
+                        </ul>
+                    )
+                }
             </nav>
         </header>
     );

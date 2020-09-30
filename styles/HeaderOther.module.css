@@ -1,0 +1,12 @@
+.colorLogo{
+    color: Black;
+}
+
+.item{
+    margin-right: 15px;
+    color: black;
+}
+  
+.item:hover{
+    border-bottom: 2px solid #0099FF;
+}

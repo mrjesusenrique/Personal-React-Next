@@ -15,6 +15,10 @@
   transition: .7s;
 }
 
+.colorLogo{
+  color: white;
+}
+
 .logoPersonal:hover{
   transition: .7s;
   transform: scale(1.1);
