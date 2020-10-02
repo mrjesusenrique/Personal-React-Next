@@ -8,7 +8,7 @@
 }
 
 .logoPersonal{
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: 55px;
   font-size: 1.7rem;
   color: white;
@@ -17,6 +17,7 @@
 
 .colorLogo{
   color: white;
+  font-size: 15px;
 }
 
 .logoPersonal:hover{
@@ -26,7 +27,7 @@
 
 .nav{
   margin-right: 30px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .list{

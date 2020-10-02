@@ -14,7 +14,7 @@ export default function Home() {
 
           <div className={styles.welcome}>
 
-            <h1>Hola! Soy <strong className="font-light">Jesús Casañas</strong></h1>
+            <h1>Hola! Soy <strong>Jesús Casañas</strong></h1>
             <h1>Desarrollador Web Frontend Jr.</h1>
 
             <div className={styles.intro}>
@@ -23,7 +23,7 @@ export default function Home() {
             </div>
 
             <div className={styles.buttons}>
-              <Link href="/contacto"><a className={styles.btnSobremi}>Sobre Mi</a></Link>
+              <Link href="/sobre-mi"><a className={styles.btnSobremi}>Sobre Mi</a></Link>
               <Link href="/contacto"><a className={styles.btnContacto}>Contáctame</a></Link>
             </div>
 

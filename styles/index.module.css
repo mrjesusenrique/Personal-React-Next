@@ -4,16 +4,16 @@
     display: flex;
     flex-direction: column;
     background-image: url('../public/images/fondo.jpeg');
-    background-size: 100% auto;
+    background-size: 100% 100vh;
 }
 
 .welcome{
     width: auto;
     height: auto;
     color: white;
-    font-size: 3rem;
-    line-height: 50px;
-    margin: 80px 60px;
+    font-size: 1.65rem;
+    line-height: 0px;
+    margin: 85px 60px;
     display: flex;
     flex-direction: column;
 }
@@ -46,9 +46,9 @@
 }
 
 .intro{
-    margin-top: 50px;
+    margin-top: 30px;
     font-size: 1.1rem;
-    line-height: 25px;
+    line-height: 15px;
 }
 
 .carreraE:hover{

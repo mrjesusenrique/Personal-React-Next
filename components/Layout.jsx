@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import Header from './Header';
 import { useRouter } from 'next/router';
+import Footer from './Footer';
 
 const Layout = ({ children }) => {
 
@@ -35,7 +36,7 @@ const Layout = ({ children }) => {
                         )}
                 </title>
 
-                <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"></link>
+                <meta name="description" content="" />
             </Head>
 
             {router.pathname === '/' ? (
@@ -44,10 +45,13 @@ const Layout = ({ children }) => {
                 </main>
 
             ) : (
-                    <main>
+                    <>
                         <Header />
-                        {children}
-                    </main>
+                        <main>
+                            {children}
+                        </main>
+                        <Footer />
+                    </>
                 )
             }
         </>
