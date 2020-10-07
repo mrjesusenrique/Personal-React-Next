@@ -3,8 +3,12 @@ import Head from 'next/head';
 import Header from './Header';
 import { useRouter } from 'next/router';
 import Footer from './Footer';
+import styles from '../styles/Layout.module.css';
 
 const Layout = ({ children }) => {
+
+    const titleHome = 'Jesús Casañas Developer | Sitio Web Oficial';
+    const titleOther = ' | Jesús Casañas Developer';
 
     const router = useRouter();
 
@@ -30,9 +34,9 @@ const Layout = ({ children }) => {
             <Head>
                 <title>
                     {router.pathname === '/' ? (
-                        'Jesús Casañas Developer | Sitio Web Oficial'
+                        titleHome
                     ) : (
-                            title(router.pathname) + ' | Jesús Casañas Developer'
+                            title(router.pathname) + titleOther
                         )}
                 </title>
 
@@ -47,7 +51,7 @@ const Layout = ({ children }) => {
             ) : (
                     <>
                         <Header />
-                        <main>
+                        <main className={styles.main}>
                             {children}
                         </main>
                         <Footer />

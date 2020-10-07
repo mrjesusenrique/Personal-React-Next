@@ -1,0 +1,55 @@
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 65px;
+}
+
+.contenedorImagen {
+    width: auto;
+    height: auto;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+.img {
+    width: 250px;
+    height: auto;
+    border-radius: 100%;
+}
+
+.fig {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    color: grey;
+}
+
+.contenedorParrafo {
+    width: 800px;
+    height: auto;
+    text-align: justify;
+    margin-right: 20px;
+}
+
+.parrafo {
+    line-height: 24px;
+}
+
+.link {
+    color: #3499E0;
+    transition: .6s;
+}
+
+.link:hover {
+    color: blueviolet;
+    transition: .6s;
+}
+
+.noStrong {
+    font-weight: lighter;
+  }
+  
