@@ -6,7 +6,7 @@ import Link from 'next/link';
 const contacto = () => {
     return (
         <Layout>
-            <div className={styles.container}>
+            <section className={styles.container}>
 
                 <div className={styles.contacto}>
                     <div className={styles.title}>
@@ -35,7 +35,7 @@ const contacto = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </Layout>
     );
 };
