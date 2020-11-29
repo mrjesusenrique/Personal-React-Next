@@ -60,3 +60,30 @@
     color: #EA5252;
     border-bottom: 2px solid #EA5252;
 }
+
+/* ------------------------------------------------- Responsive --------------------------------------------------*/
+
+@media (max-width: 755px){
+    .welcome h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 695px){
+    .welcome {
+        width: auto;
+        text-align: center;
+    }
+
+    .welcome h1 {
+        font-size: 1.6rem;
+    }
+
+    .intro p {
+        line-height: 25px;
+    }
+
+    .buttons {
+        justify-content: center;
+    }
+}

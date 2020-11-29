@@ -49,12 +49,6 @@ const Header = () => {
                         </li>
 
                         <li className={stylesIndex.item}>
-                            <Link href="/servicios">
-                                <a>Servicios</a>
-                            </Link>
-                        </li>
-
-                        <li className={stylesIndex.item}>
                             <Link href="/portafolio">
                                 <a>Portafolio</a>
                             </Link>
@@ -86,12 +80,6 @@ const Header = () => {
                             <li className={stylesOther.item}>
                                 <Link href="/blog">
                                     <a>Blog</a>
-                                </Link>
-                            </li>
-
-                            <li className={stylesOther.item}>
-                                <Link href="/servicios">
-                                    <a>Servicios</a>
                                 </Link>
                             </li>
 
