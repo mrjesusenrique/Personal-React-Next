@@ -5,4 +5,12 @@
     background-color: white;
     font-weight: bold;
 }
-  
+
+/* ------------------------------------------------- Responsive --------------------------------------------------*/
+
+@media (max-width: 695px){
+    .footer {
+        position: relative;
+        top: 100vh;
+    }
+}

@@ -49,3 +49,11 @@
     transition: .5s;
     transform: scale(1.2);
 }
+
+/* ----------------------------------------------------- Responsive --------------------------------------------------*/
+
+@media (max-width: 695px){
+   .redes {
+       flex-direction: column;
+   }
+}
