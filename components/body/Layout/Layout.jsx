@@ -1,9 +1,9 @@
 import React from 'react';
 import Head from 'next/head';
-import Header from './Header';
+import Header from '../Header/Header';
 import { useRouter } from 'next/router';
-import Footer from './Footer';
-import styles from '../styles/Layout.module.css';
+import Footer from '../Footer/Footer';
+import styles from '../../../styles/Layout.module.css';
 
 const Layout = ({ children }) => {
 
@@ -36,28 +36,30 @@ const Layout = ({ children }) => {
                     {router.pathname === '/' ? (
                         titleHome
                     ) : (
-                            title(router.pathname) + titleOther
-                        )}
+                        title(router.pathname) + titleOther
+                    )}
                 </title>
 
                 <meta name="description" content="" />
             </Head>
 
             {router.pathname === '/' ? (
-                <main>
-                    {children}
-                </main>
-
+                <>
+                    <main>
+                        {children}
+                    </main>
+                    <Footer />
+                </>
             ) : (
-                    <>
-                        <Header />
-                        <main className={styles.main}>
-                            {children}
-                        </main>
-                        <Footer />
-                    </>
-                )
-            }
+                <>
+                    <Header />
+                    <main className={styles.main}>
+                        {children}
+                    </main>
+                    <Footer />
+                </>
+            )
+            };
         </>
     );
 };

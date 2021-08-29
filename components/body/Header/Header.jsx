@@ -1,9 +1,8 @@
-import React from 'react';
-import stylesIndex from '../styles/HeaderIndex.module.css';
-import stylesOther from '../styles/HeaderOther.module.css';
+import stylesIndex from '../../../styles/HeaderIndex.module.css';
+import stylesOther from '../../../styles/HeaderOther.module.css';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import Navbar from './Navbar';
+import Navbar from '../Responsive/Navbar/Navbar';
 
 const Header = () => {
 
@@ -45,13 +44,13 @@ const Header = () => {
 
                         <li className={stylesIndex.item}>
                             <Link href="/portafolio">
-                                <a>Portafolio</a>
+                                <a>Académico</a>
                             </Link>
                         </li>
 
                         <li className={stylesIndex.item}>
                             <Link href="sobre-mi">
-                                <a>Sobre mi</a>
+                                <a>Carrera Profesional</a>
                             </Link>
                         </li>
 
@@ -74,13 +73,13 @@ const Header = () => {
 
                             <li className={stylesOther.item}>
                                 <Link href="/portafolio">
-                                    <a>Portafolio</a>
+                                    <a>Académico</a>
                                 </Link>
                             </li>
 
                             <li className={stylesOther.item}>
                                 <Link href="sobre-mi">
-                                    <a>Sobre mi</a>
+                                    <a>Carrera Profesional</a>
                                 </Link>
                             </li>
 
@@ -89,7 +88,6 @@ const Header = () => {
                                     <a>Contacto</a>
                                 </Link>
                             </li>
-
                         </ul>
                     )
                 }
