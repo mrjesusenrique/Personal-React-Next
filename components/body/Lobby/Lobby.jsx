@@ -4,7 +4,7 @@ import Header from '../Header/Header';
 
 const Lobby = () => {
     return (
-        <div className={styles.index}>
+        <div className={styles.index} id="top">
             <Header />
             <Presentacion />
         </div>

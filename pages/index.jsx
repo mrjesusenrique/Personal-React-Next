@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/body/Layout/Layout';
 import Lobby from '../components/body/Lobby/Lobby';
-import SobreMi from '../components/body/SobreMi/SobreMi';
+import SobreMiAcademico from '../components/body/SobreMi/Academico/Academico';
 import Contacto from '../components/body/Contacto/Contacto';
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
     <div>
       <Layout>
         <Lobby />
-        <SobreMi />
+        <SobreMiAcademico />
         <Contacto />
       </Layout>
     </div>

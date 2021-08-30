@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const contacto = () => {
     return (
-        <section className={styles.container}>
+        <section className={styles.container} id="contacto">
 
             <div className={styles.contacto}>
                 <div className={styles.title}>

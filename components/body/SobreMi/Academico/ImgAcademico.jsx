@@ -1,6 +1,6 @@
-import styles from '../../../styles/Sobremi.module.css';
+import styles from '../../../../styles/Sobremi.module.css';
 
-const ImgSobreMi = () => {
+const ImgAcademico = () => {
     return (
         <div className={styles.contenedorImagen}>
             <figure>
@@ -11,4 +11,4 @@ const ImgSobreMi = () => {
     );
 };
 
-export default ImgSobreMi;
+export default ImgAcademico;

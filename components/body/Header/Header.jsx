@@ -2,7 +2,9 @@ import stylesIndex from '../../../styles/HeaderIndex.module.css';
 import stylesOther from '../../../styles/HeaderOther.module.css';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import Navbar from '../Responsive/Navbar/Navbar';
+import NavbarHome from '../Navbar/NavbarHome';
+import NavbarBlog from '../Navbar/NavbarBlog';
+import NavbarResponsive from '../Responsive/Navbar/NavbarResponsive';
 
 const Header = () => {
 
@@ -22,12 +24,12 @@ const Header = () => {
 
                 ) : (
 
-                        <Link href="/">
-                            <a className={stylesOther.colorLogo}>
-                                <h1>JC Developer</h1>
-                            </a>
-                        </Link>
-                    )}
+                    <Link href="/">
+                        <a className={stylesOther.colorLogo}>
+                            <h1>JC Developer</h1>
+                        </a>
+                    </Link>
+                )}
 
             </div>
             <nav className={stylesIndex.nav}>
@@ -35,65 +37,19 @@ const Header = () => {
                 {router.pathname === '/' ? (
 
                     <ul className={stylesIndex.list}>
-
-                        <li className={stylesIndex.item}>
-                            <Link href="/">
-                                <a>Inicio</a>
-                            </Link>
-                        </li>
-
-                        <li className={stylesIndex.item}>
-                            <Link href="/portafolio">
-                                <a>Académico</a>
-                            </Link>
-                        </li>
-
-                        <li className={stylesIndex.item}>
-                            <Link href="sobre-mi">
-                                <a>Carrera Profesional</a>
-                            </Link>
-                        </li>
-
-                        <li className={stylesIndex.item}>
-                            <Link href="/contacto">
-                                <a>Contacto</a>
-                            </Link>
-                        </li>
-
+                        <NavbarHome />
                     </ul>
+
                 ) : (
 
-                        <ul className={stylesIndex.list}>
-
-                            <li className={stylesOther.item}>
-                                <Link href="/">
-                                    <a>Inicio</a>
-                                </Link>
-                            </li>
-
-                            <li className={stylesOther.item}>
-                                <Link href="/portafolio">
-                                    <a>Académico</a>
-                                </Link>
-                            </li>
-
-                            <li className={stylesOther.item}>
-                                <Link href="sobre-mi">
-                                    <a>Carrera Profesional</a>
-                                </Link>
-                            </li>
-
-                            <li className={stylesOther.item}>
-                                <Link href="/contacto">
-                                    <a>Contacto</a>
-                                </Link>
-                            </li>
-                        </ul>
-                    )
+                    <ul className={stylesIndex.list}>
+                        <NavbarBlog />
+                    </ul>
+                )
                 }
             </nav>
 
-            <Navbar />
+            <NavbarResponsive />
         </header>
     );
 };

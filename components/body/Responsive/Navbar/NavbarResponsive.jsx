@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import styles from '../../../../styles/Navbar.module.css';
 
-const Navbar = () => {
+const NavbarResponsive = () => {
     return (
         <div className={styles.sidebar}>
             <input type="checkbox" id="btn-movil" />
@@ -20,4 +20,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default NavbarResponsive;

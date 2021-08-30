@@ -1,7 +1,7 @@
-import styles from '../../../styles/Sobremi.module.css';
+import styles from '../../../../styles/Sobremi.module.css';
 import Link from 'next/link';
 
-const TextoSobreMi = () => {
+const ParrafoAcademico = () => {
     return (
         <div className={styles.contenedorParrafo}>
             <p className={styles.parrafo}>¡Hola! Mi nombre es <strong className={styles.noStrong}>Jesús Casañas</strong>, soy estudiante de <strong className={styles.noStrong}>Desarrollo
@@ -17,4 +17,4 @@ const TextoSobreMi = () => {
     );
 };
 
-export default TextoSobreMi;
+export default ParrafoAcademico;
