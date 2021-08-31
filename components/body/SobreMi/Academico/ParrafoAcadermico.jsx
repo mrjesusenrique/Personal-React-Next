@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const ParrafoAcademico = () => {
     return (
-        <div className={styles.contenedorParrafo}>
+        <article className={styles.contenedorParrafo}>
             <p className={styles.parrafo}>¡Hola! Mi nombre es <strong className={styles.noStrong}>Jesús Casañas</strong>, soy estudiante de <strong className={styles.noStrong}>Desarrollo
                 y Programación Web</strong> en <strong><Link href="https://www.educacionit.com/"><a className={styles.link} target="_blanck">EducaciónIT</a></Link> </strong>
                 Buenos Aires, ahora tengo 23 años, hace aproximadamente tres años partí de Caracas, Venezuela
@@ -13,7 +13,7 @@ const ParrafoAcademico = () => {
                 habilidades en el campo. Si quieres conocer más acerca de mí y mi trabajo haz click
                 <Link href="#"><a className={styles.link}> acá</a></Link>.
             </p>
-        </div>
+        </article>
     );
 };
 

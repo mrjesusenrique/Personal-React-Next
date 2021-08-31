@@ -11,26 +11,26 @@
     width: auto;
     height: auto;
     margin-right: 50px;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 .img {
-    width: 250px;
-    height: auto;
+    width: 17rem;
+    height: 16rem;
     border-radius: 100%;
 }
 
 .fig {
     text-align: center;
-    margin-top: 10px;
-    font-weight: bold;
+    margin-top: 15px;
+    font-style: italic;
     color: grey;
 }
 
 .contenedorParrafo {
     width: 800px;
     text-align: justify;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 .parrafo {

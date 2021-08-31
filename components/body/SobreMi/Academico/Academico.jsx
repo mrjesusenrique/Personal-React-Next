@@ -9,7 +9,6 @@ const Academico = () => {
             <ImgAcademico />
             <ParrafoAcadermico />
         </section>
-
     );
 };
 
