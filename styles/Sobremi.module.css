@@ -1,3 +1,5 @@
+/*-------------------------------------------------- Estilos sección Académico ------------------------------------------------------*/
+
 .section {
     display: flex;
     flex-direction: row;
@@ -28,13 +30,17 @@
 }
 
 .contenedorParrafo {
-    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50rem;
     text-align: justify;
-    margin-right: 40px;
+    margin-right: 60px;
 }
 
 .parrafo {
     line-height: 24px;
+    margin-top: 0px;
 }
 
 .link {
@@ -50,4 +56,47 @@
 .noStrong {
     font-weight: lighter;
 }
-  
+
+.titleSectionAcademico {
+    font-size: 5rem;
+    margin-top: 0rem;
+    margin-bottom: 1.5rem;
+    margin-left: 2.5rem;
+}
+
+
+/* ------------------------------------------------------ Estilos sección Laboral ---------------------------------------------------- */
+
+.contenedorParrafoLaboral {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50rem;
+    text-align: justify;
+    margin-left: 0.5rem;
+}
+
+.titleSectionLaboral {
+    font-size: 5rem;
+    margin-top: 0rem;
+    margin-bottom: 1.5rem;
+    margin-left: 6.5rem;
+}
+
+.parrafoLaboral {
+    line-height: 24px;
+    margin-top: 0px;
+    margin-left: 4rem;
+}
+
+.contenedorImagenLaboral {
+    width: auto;
+    height: auto;
+    margin-right: 2rem;
+    margin-left: 4rem;
+}
+
+.imgLaboral {
+    width: 25rem;
+    height: 25rem;
+}

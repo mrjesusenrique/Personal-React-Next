@@ -12,19 +12,19 @@ const NavbarHome = () => {
 
             <li className={stylesIndex.item}>
                 <a href="">
-                    <LinkScroll to="sobreMiAcademico" smooth={true} duration={2000}>Académico</LinkScroll>
+                    <LinkScroll to="sobreMiAcademico" smooth={true} duration={2200}>Académico</LinkScroll>
                 </a>
             </li>
 
             <li className={stylesIndex.item}>
                 <a href="">
-                    <LinkScroll>Carrera Profesional</LinkScroll>
+                    <LinkScroll to="sobreMiLaboral" smooth={true} duration={3000}>Carrera Profesional</LinkScroll>
                 </a>
             </li>
 
             <li className={stylesIndex.item}>
                 <a href="">
-                    <LinkScroll to="contacto" smooth={true} duration={2000}>Contacto</LinkScroll>
+                    <LinkScroll to="contacto" smooth={true} duration={3500}>Contacto</LinkScroll>
                 </a>
             </li>
         </>

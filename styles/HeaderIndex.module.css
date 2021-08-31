@@ -5,7 +5,7 @@
   z-index: 9999;
   flex-direction: row;
   justify-content: space-between;
-  position: fixed;
+  /*position: fixed;*/
 }
 
 .logoPersonal{

@@ -11,7 +11,7 @@ const Presentacion = () => {
       
 
       <div className={styles.intro}>
-        <p>Estudiante de <Link href="http://www.fi.uba.ar/es/node/236"><a target="_blanck" className={styles.carreraE}>Licenciatura en Análisis de Sistemas en la Universidad de Buenos Aires</a></Link>.</p>
+        <p>Estudiante de Licenciatura en Análisis de Sistemas en la <Link href="http://www.fi.uba.ar/es/node/236"><a target="_blanck" className={styles.carreraE}>Universidad de Buenos Aires</a></Link>.</p>
         <p>Alumno autodidacta de la Plataforma <Link href="https://www.udemy.com/"><a target="_blanck" className={styles.carreraU} >Udemy</a></Link>.</p>
       </div>
 
