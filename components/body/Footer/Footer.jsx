@@ -3,7 +3,7 @@ import styles from '../../../styles/Footer.module.css';
 const Footer = () => {
     return (
         <footer className={styles.footer}>
-            <p>&copy; Copyright 2021. Desarrollado por <strong>Jesús Casañas</strong>. Todos los Derechos Reservados.</p>
+            &copy; Copyright 2021. Desarrollado por <strong>Jesús Casañas</strong>.
         </footer>
     );
 };

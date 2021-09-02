@@ -1,6 +1,6 @@
-import styles from '../../../styles/Habilidades.module.css';
+import styles from '../../../styles/Stack.module.css';
 
-const ImgHabilidades = () => {
+const ImgStack = () => {
     return (
         <section className={styles.sectionImages}>
             <div className={styles.divImage}>
@@ -34,4 +34,4 @@ const ImgHabilidades = () => {
     );
 };
 
-export default ImgHabilidades;
+export default ImgStack;

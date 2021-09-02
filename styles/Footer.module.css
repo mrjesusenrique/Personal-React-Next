@@ -1,8 +1,10 @@
 .footer {
     width: 100%;
+    height: 4rem;
     text-align: center;
-    color: black;
-    background-color: white;
+    line-height: 4rem;
+    color: white;
+    background-color: #59585F;
     font-weight: bold;
 }
 

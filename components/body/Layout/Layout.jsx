@@ -59,9 +59,9 @@ const Layout = ({ children }) => {
                     <Footer />
                 </>
             )
-            };
+            }
         </>
-    );
+    )
 };
 
 export default Layout;
