@@ -3,8 +3,8 @@ import ImgHabilidades from './ImgHabilidades';
 
 const Habilidades = () => {
     return (
-        <section className={styles.contenedorHabilidades} id="habilidades">
-            <h1 className={styles.titleHabilidades}>Habilidades</h1>
+        <section className={styles.contenedorHabilidades} id="stack">
+            <h1 className={styles.titleHabilidades}>Stack</h1>
             <ImgHabilidades />
         </section>
     );
