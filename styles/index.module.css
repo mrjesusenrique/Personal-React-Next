@@ -38,25 +38,21 @@
 
 @media (max-width: 770px){
     .welcome h1 {
-        font-size: 2rem;
+        font-size: 2.75rem;
     }
 }
 
-@media (max-width: 695px){
+@media (max-width: 712px){
     .welcome {
         width: auto;
         text-align: center;
     }
 
     .welcome h1 {
-        font-size: 1.6rem;
+        font-size: 2rem;
     }
 
     .intro p {
         line-height: 25px;
-    }
-
-    .buttons {
-        justify-content: center;
     }
 }

@@ -27,8 +27,8 @@
 }
 /*------------------------------------------------------ Responsive -------------------------------------------------*/
 
-@media (max-width: 695px){
+@media (max-width: 730px){
    .sidebar {
-        display: block;
+        display: none;
    }
 }

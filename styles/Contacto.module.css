@@ -37,8 +37,8 @@
 
 /* ----------------------------------------------------- Responsive --------------------------------------------------*/
 
-@media (max-width: 695px){
-   .redes {
-       flex-direction: column;
-   }
+@media (max-width: 712px){
+    .container {
+        right: .25rem;
+    }
 }

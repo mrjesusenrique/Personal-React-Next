@@ -100,3 +100,68 @@
     width: 25rem;
     height: 25rem;
 }
+
+
+/* ------------------------------------------------------------ Responsive ---------------------------------------------------------- */
+
+
+@media (max-width: 1073px){
+    .section {
+        flex-direction: column;
+    }
+
+    .contenedorImagen {
+        text-align: center;
+    }
+
+    .titleSectionAcademico {
+        margin-top: 2.5rem;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .contenedorParrafo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 40rem;
+        text-align: justify;
+        margin-right: 0;
+    }
+
+    .contenedorParrafoLaboral {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 40rem;
+        text-align: justify;
+        margin-right: 0;
+    }
+
+    .titleSectionLaboral {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .parrafoLaboral {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 770px){
+
+    .titleSectionAcademico {
+        margin-top: 2.5rem;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .contenedorParrafo {
+        width: 25rem;
+    }
+
+    .contenedorParrafoLaboral {
+        margin-top: -2rem;
+        width: 25rem;
+    }
+}
