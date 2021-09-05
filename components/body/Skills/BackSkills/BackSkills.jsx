@@ -1,10 +1,10 @@
 import styles from '../../../../styles/Skills.module.css';
 
-const FrontSkills = () => {
+const BackSkills = () => {
     return (
-        <section className={styles.sectionSkillsFront} id="skills">
-            <h1 className={styles.titleFront}>Frontend</h1>
-            <div className={styles.contentFrontSkills}>
+        <section className={styles.sectionSkillBack} id="skills">
+            <h1 className={styles.titleBack}>Backend</h1>
+            <div className={styles.contentBackSkills}>
                 <ul>
                     <li>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -27,4 +27,4 @@ const FrontSkills = () => {
     );
 };
 
-export default FrontSkills;
+export default BackSkills;

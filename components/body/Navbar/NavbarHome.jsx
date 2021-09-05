@@ -24,7 +24,7 @@ const NavbarHome = () => {
 
             <li className={stylesIndex.item}>
                 <a href="">
-                    <LinkScroll to="" smooth={true} duration={3000}>Skills</LinkScroll>
+                    <LinkScroll to="skills" smooth={true} duration={3000}>Skills</LinkScroll>
                 </a>
             </li>
 
