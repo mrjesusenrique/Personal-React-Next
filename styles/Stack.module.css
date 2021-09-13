@@ -1,6 +1,6 @@
 .contenedorHabilidades {
     width: 100%;
-    height: 30rem;
+    height: 45rem;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -25,6 +25,7 @@
 .divImage {
     width: 5rem;
     height: 5rem;
+    margin: 2.5rem 0rem;
 }
 
 .imgTech{
