@@ -55,12 +55,11 @@
 
   .logoPersonal {
     width: 100%;
-    text-align: center;
-    margin-left: 0px;
+    margin-left: 35px;
   }
 
   .logoPersonal:hover{
-    transition: 0s;
-    transform: scale(1);
+    transition: .7s;
+    transform: scale(1.03);
   }
 }
