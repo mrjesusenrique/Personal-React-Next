@@ -1,0 +1,22 @@
+.btnMenu {
+  display: none;
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  top: 2rem;
+  right: 1.5rem;
+  cursor: pointer;
+}
+
+.ImgMenu {
+  width: 100%;
+  height: 100%;
+}
+
+/* ---------------------------------------------------------- Responsive -------------------------------------------------------- */
+
+@media (max-width: 730px) {
+  .btnMenu {
+    display: block;
+  }
+}
