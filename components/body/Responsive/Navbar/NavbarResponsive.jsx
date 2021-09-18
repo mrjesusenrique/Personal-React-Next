@@ -1,25 +1,55 @@
-import React from "react";
-import Link from "next/link";
-import styles from "../../../../styles/Navbar.module.css";
+import stylesNavResp from "../../../../styles/NavbarResponsive.module.css";
+import { Link as LinkScroll } from "react-scroll";
 
 const NavbarResponsive = () => {
   return (
-    <div className={styles.nav}>
+    <>
       <ul>
-        <Link href="/">
-          <li className={styles.item}>Inicio</li>
-        </Link>
-        <Link href="/portafolio">
-          <li className={styles.item}>Académico</li>
-        </Link>
-        <Link href="/sobre-mi">
-          <li className={styles.item}>Experiencia Profesional</li>
-        </Link>
-        <Link href="/contacto">
-          <li className={styles.item}>Contacto</li>
-        </Link>
+        <li>
+          <LinkScroll
+            to="top"
+            smooth={true}
+            duration={2000}
+            className={stylesNavResp.item}
+          >
+            Inicio
+          </LinkScroll>
+        </li>
+
+        <li>
+          <LinkScroll
+            to="sobreMiAcademico"
+            smooth={true}
+            duration={2200}
+            className={stylesNavResp.item}
+          >
+            Académico
+          </LinkScroll>
+        </li>
+
+        <li>
+          <LinkScroll
+            to="sobreMiLaboral"
+            smooth={true}
+            duration={3000}
+            className={stylesNavResp.item}
+          >
+            Carrera Profesional
+          </LinkScroll>
+        </li>
+
+        <li>
+          <LinkScroll
+            to="skills"
+            smooth={true}
+            duration={3000}
+            className={stylesNavResp.item}
+          >
+            Skills
+          </LinkScroll>
+        </li>
       </ul>
-    </div>
+    </>
   );
 };
 
