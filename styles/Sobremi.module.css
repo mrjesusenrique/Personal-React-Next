@@ -1,167 +1,176 @@
 /*-------------------------------------------------- Estilos sección Académico ------------------------------------------------------*/
 
 .section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 66px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  padding: 66px;
 }
 
 .contenedorImagen {
-    width: auto;
-    height: auto;
-    margin-right: 50px;
-    margin-left: 40px;
+  width: auto;
+  height: auto;
+  margin-right: 50px;
+  margin-left: 40px;
 }
 
 .img {
-    width: 17rem;
-    height: 16rem;
-    border-radius: 100%;
+  width: 17rem;
+  height: 16rem;
+  border-radius: 100%;
 }
 
 .fig {
-    text-align: center;
-    margin-top: 15px;
-    font-style: italic;
-    color: grey;
+  text-align: center;
+  margin-top: 15px;
+  font-style: italic;
+  color: grey;
 }
 
 .contenedorParrafo {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 50rem;
-    text-align: justify;
-    margin-right: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 50rem;
+  text-align: justify;
+  margin-right: 60px;
 }
 
 .parrafo {
-    line-height: 24px;
-    margin-top: 0px;
+  line-height: 24px;
+  margin-top: 0px;
 }
 
 .link {
-    color: #3499E0;
-    transition: .6s;
+  color: #3499e0;
+  transition: 0.6s;
 }
 
 .link:hover {
-    color: blueviolet;
-    transition: .6s;
+  color: blueviolet;
+  transition: 0.6s;
 }
 
 .noStrong {
-    font-weight: lighter;
+  font-weight: lighter;
 }
 
 .titleSectionAcademico {
-    font-size: 5rem;
-    margin-top: 0rem;
-    margin-bottom: 1.5rem;
-    margin-left: 2.5rem;
+  font-size: 5rem;
+  margin-top: 0rem;
+  margin-bottom: 1.5rem;
+  margin-left: 2.5rem;
 }
-
 
 /* ------------------------------------------------------ Estilos sección Laboral ---------------------------------------------------- */
 
 .contenedorParrafoLaboral {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 50rem;
-    text-align: justify;
-    margin-left: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 50rem;
+  text-align: justify;
+  margin-left: 0.5rem;
 }
 
 .titleSectionLaboral {
-    font-size: 5rem;
-    margin-top: 0rem;
-    margin-bottom: 1.5rem;
-    margin-left: 6.5rem;
+  font-size: 5rem;
+  margin-top: 0rem;
+  margin-bottom: 1.5rem;
+  margin-left: 6.5rem;
 }
 
 .parrafoLaboral {
-    line-height: 24px;
-    margin-top: 0px;
-    margin-left: 4rem;
+  line-height: 24px;
+  margin-top: 0px;
+  margin-left: 4rem;
 }
 
 .contenedorImagenLaboral {
-    width: auto;
-    height: auto;
-    margin-right: 2rem;
-    margin-left: 4rem;
+  width: auto;
+  height: auto;
+  margin-right: 2rem;
+  margin-left: 4rem;
 }
 
 .imgLaboral {
-    width: 25rem;
-    height: 25rem;
+  width: 25rem;
+  height: 25rem;
 }
-
 
 /* ------------------------------------------------------------ Responsive ---------------------------------------------------------- */
 
+@media (max-width: 1073px) {
+  .section {
+    width: 94.2%;
+    flex-direction: column;
+  }
 
-@media (max-width: 1073px){
-    .section {
-        flex-direction: column;
-    }
+  .contenedorImagen {
+    position: relative;
+    left: 30px;
+    text-align: center;
+  }
 
-    .contenedorImagen {
-        text-align: center;
-    }
+  .titleSectionAcademico {
+    position: relative;
+    left: 15px;
+    margin-top: 2.5rem;
+    text-align: center;
+  }
 
-    .titleSectionAcademico {
-        margin-top: 2.5rem;
-        margin-left: 0;
-        text-align: center;
-    }
+  .contenedorParrafo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 40rem;
+    text-align: justify;
+    margin-right: 0;
+  }
 
-    .contenedorParrafo {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        width: 40rem;
-        text-align: justify;
-        margin-right: 0;
-    }
+  .parrafo {
+    position: relative;
+    left: 15px;
+  }
 
-    .contenedorParrafoLaboral {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        width: 40rem;
-        text-align: justify;
-        margin-right: 0;
-    }
+  .contenedorParrafoLaboral {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 40rem;
+    text-align: justify;
+    margin-right: 0;
+  }
 
-    .titleSectionLaboral {
-        margin-left: 0;
-        text-align: center;
-    }
+  .titleSectionLaboral {
+    position: relative;
+    left: 14px;
+    text-align: center;
+    margin-left: 0px;
+  }
 
-    .parrafoLaboral {
-        margin-left: 0;
-    }
+  .parrafoLaboral {
+    margin-left: 0;
+    position: relative;
+    left: 14px;
+  }
 }
 
-@media (max-width: 770px){
+@media (max-width: 770px) {
+  .titleSectionAcademico {
+    margin-top: 2.5rem;
+    margin-left: 0;
+    text-align: center;
+  }
 
-    .titleSectionAcademico {
-        margin-top: 2.5rem;
-        margin-left: 0;
-        text-align: center;
-    }
+  .contenedorParrafo {
+    width: 25rem;
+  }
 
-    .contenedorParrafo {
-        width: 25rem;
-    }
-
-    .contenedorParrafoLaboral {
-        margin-top: -2rem;
-        width: 25rem;
-    }
+  .contenedorParrafoLaboral {
+    margin-top: -2rem;
+    width: 25rem;
+  }
 }

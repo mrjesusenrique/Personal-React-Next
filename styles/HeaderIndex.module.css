@@ -52,6 +52,10 @@
     display: none;
   }
 
+  .logoPersonal {
+    left: 35px;
+  }
+
   .logoPersonal:hover {
     transition: 0.7s;
     transform: scale(1.03);
