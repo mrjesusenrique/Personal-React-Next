@@ -13,7 +13,7 @@ const Header = () => {
 
   const showSidebar = () => {
     const sidebar = document.getElementById("sidebarFull");
-    sidebar.classList.toggle(`${stylesNavResp.sidebar}`);
+    sidebar.classList.toggle(`${stylesNavResp.visibleSidebar}`);
   };
 
   return (
@@ -47,11 +47,10 @@ const Header = () => {
         </nav>
         <ButtonMenu onClick={showSidebar} />
       </header>
-      <div className={stylesNavResp.contentSidebar}>
-        <nav className={stylesNavResp.sidebar} id="sidebarFull">
-          <NavbarResponsive />
-        </nav>
-      </div>
+
+      <nav className={stylesNavResp.visibleSidebar} id="sidebarFull">
+        <NavbarResponsive />
+      </nav>
     </>
   );
 };

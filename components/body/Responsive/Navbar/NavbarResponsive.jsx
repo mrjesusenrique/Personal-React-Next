@@ -3,7 +3,7 @@ import { Link as LinkScroll } from "react-scroll";
 
 const NavbarResponsive = () => {
   return (
-    <>
+    <div className={stylesNavResp.sidebar}>
       <ul>
         <li>
           <LinkScroll
@@ -49,7 +49,7 @@ const NavbarResponsive = () => {
           </LinkScroll>
         </li>
       </ul>
-    </>
+    </div>
   );
 };
 
