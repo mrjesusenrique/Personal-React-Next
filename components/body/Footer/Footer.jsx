@@ -1,11 +1,14 @@
-import styles from '../../../styles/Footer.module.css';
+import styles from "../../../styles/Footer.module.css";
 
 const Footer = () => {
-    return (
-        <footer className={styles.footer}>
-            &copy; Copyright 2021. Desarrollado por <strong>Jesús Casañas</strong>.
-        </footer>
-    );
+  const actualYear = new Date().getFullYear();
+
+  return (
+    <footer className={styles.footer}>
+      &copy; Copyright {actualYear}. Desarrollado por
+      {<strong> Jesús Casañas</strong>}.
+    </footer>
+  );
 };
 
 export default Footer;
