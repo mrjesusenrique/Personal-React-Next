@@ -6,7 +6,7 @@ const NavbarHome = () => {
     <>
       <li className={stylesIndex.item}>
         <a href="">
-          <LinkScroll to="top" smooth={true} duration={2000}>
+          <LinkScroll to="top" smooth={true} duration={0}>
             Inicio
           </LinkScroll>
         </a>
@@ -30,7 +30,7 @@ const NavbarHome = () => {
 
       <li className={stylesIndex.item}>
         <a href="">
-          <LinkScroll to="skills" smooth={true} duration={3000}>
+          <LinkScroll to="skills" smooth={true} duration={3500}>
             Skills
           </LinkScroll>
         </a>
@@ -38,7 +38,7 @@ const NavbarHome = () => {
 
       <li className={stylesIndex.item}>
         <a href="">
-          <LinkScroll to="stack" smooth={true} duration={3500}>
+          <LinkScroll to="stack" smooth={true} duration={4000}>
             Stack
           </LinkScroll>
         </a>

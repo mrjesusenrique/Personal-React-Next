@@ -9,7 +9,7 @@ const NavbarResponsive = () => {
           <LinkScroll
             to="top"
             smooth={true}
-            duration={2000}
+            duration={0}
             className={stylesNavResp.item}
           >
             Inicio
@@ -42,10 +42,21 @@ const NavbarResponsive = () => {
           <LinkScroll
             to="skills"
             smooth={true}
-            duration={3000}
+            duration={3500}
             className={stylesNavResp.item}
           >
             Skills
+          </LinkScroll>
+        </li>
+
+        <li>
+          <LinkScroll
+            to="stack"
+            smooth={true}
+            duration={4000}
+            className={stylesNavResp.item}
+          >
+            Stack
           </LinkScroll>
         </li>
       </ul>
