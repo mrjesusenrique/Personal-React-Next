@@ -3777,7 +3777,7 @@
   "resolved" "https://registry.npmjs.org/promise-inflight/-/promise-inflight-1.0.1.tgz"
   "version" "1.0.1"
 
-"prop-types@^15.6.2", "prop-types@^15.7.2", "prop-types@15.7.2":
+"prop-types@^15.5.10", "prop-types@^15.6.2", "prop-types@^15.7.2", "prop-types@15.7.2":
   "integrity" "sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ=="
   "resolved" "https://registry.npmjs.org/prop-types/-/prop-types-15.7.2.tgz"
   "version" "15.7.2"
@@ -3888,6 +3888,13 @@
   "resolved" "https://registry.npmjs.org/react-refresh/-/react-refresh-0.8.3.tgz"
   "version" "0.8.3"
 
+"react-reveal@^1.2.2":
+  "integrity" "sha512-JCv3fAoU6Z+Lcd8U48bwzm4pMZ79qsedSXYwpwt6lJNtj/v5nKJYZZbw3yhaQPPgYePo3Y0NOCoYOq/jcsisuw=="
+  "resolved" "https://registry.npmjs.org/react-reveal/-/react-reveal-1.2.2.tgz"
+  "version" "1.2.2"
+  dependencies:
+    "prop-types" "^15.5.10"
+
 "react-scroll@^1.8.3":
   "integrity" "sha512-BpEMPUIkLuu3BGZYeaCxDA4tk4Hd25f7da9qGb3a2FY8gURtaVaA62q/Vk2/DChP/4GETp5WMbvkRLaMLzVgwg=="
   "resolved" "https://registry.npmjs.org/react-scroll/-/react-scroll-1.8.3.tgz"
@@ -3896,7 +3903,7 @@
     "lodash.throttle" "^4.1.1"
     "prop-types" "^15.7.2"
 
-"react@^15.5.4 || ^16.0.0 || ^17.0.0", "react@16.13.1":
+"react@^15.3.0 || ^16.0.0", "react@^15.5.4 || ^16.0.0 || ^17.0.0", "react@16.13.1":
   "integrity" "sha512-YMZQQq32xHLX0bz5Mnibv1/LHb3Sqzngu7xstSM+vrkE5Kzr9xE0yMByK5kMoTK30YVJE61WfbxIFFvfeDKT1w=="
   "resolved" "https://registry.npmjs.org/react/-/react-16.13.1.tgz"
   "version" "16.13.1"
