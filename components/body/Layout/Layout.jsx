@@ -7,8 +7,8 @@ import styles from '../../../styles/Layout.module.css';
 
 const Layout = ({ children }) => {
 
-    const titleHome = 'Jesús Casañas Developer | Sitio Web Oficial';
-    const titleOther = ' | Jesús Casañas Developer';
+    const titleHome = 'Jesús Casañas | Sitio Web Oficial';
+    const titleOther = ' | Jesús Casañas';
 
     const router = useRouter();
 
