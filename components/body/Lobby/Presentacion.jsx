@@ -13,10 +13,10 @@ const Presentacion = () => {
 
         <div className={styles.intro}>
           <p>
-            Estudiante de Licenciatura en Análisis de Sistemas en la{" "}
-            <Link href="http://www.fi.uba.ar/es/node/236">
+            Estudiante de Desarrollo Web Full Stack en{" "}
+            <Link href="https://www.educacionit.com/">
               <a target="_blanck" className={styles.carreraE}>
-                Universidad de Buenos Aires
+                EducaciónIT
               </a>
             </Link>
             .

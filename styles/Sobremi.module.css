@@ -65,6 +65,15 @@
   margin-left: 2.5rem;
 }
 
+.job {
+  transition: 0.6s;
+}
+
+.job:hover {
+  color: #ea5252;
+  transition: 0.6s;
+}
+
 /* ------------------------------------------------------ Estilos sección Laboral ---------------------------------------------------- */
 
 .contenedorParrafoLaboral {
