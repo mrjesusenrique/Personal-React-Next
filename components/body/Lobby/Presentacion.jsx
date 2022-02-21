@@ -9,11 +9,11 @@ const Presentacion = () => {
         <h1>
           Hola! Soy <strong>Jesús Casañas</strong>
         </h1>
-        <h1>Desarrollador Web Full Stack.</h1>
+        <h1 className={styles.title}>Desarrollador Web Full Stack.</h1>
 
         <div className={styles.intro}>
           <p>
-            Estudiante de Desarrollo Web Full Stack en{" "}
+            Formado en{" "}
             <Link href="https://www.educacionit.com/">
               <a target="_blanck" className={styles.carreraE}>
                 EducaciónIT
@@ -22,10 +22,10 @@ const Presentacion = () => {
             .
           </p>
           <p>
-            Alumno autodidacta de la Plataforma{" "}
-            <Link href="https://www.udemy.com/">
+            Estudiante de Tecnicatura Superior en Análisis de Sistemas en{" "}
+            <Link href="https://www.istea.edu.ar/">
               <a target="_blanck" className={styles.carreraU}>
-                Udemy
+                ISTEA
               </a>
             </Link>
             .

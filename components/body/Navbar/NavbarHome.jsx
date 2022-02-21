@@ -5,10 +5,11 @@ import { Link as LinkScroll } from "react-scroll";
 const NavbarHome = () => {
   return (
     <>
-      {items.map((item) => {
+      {items.map((item, index) => {
         return (
           <li className={stylesIndex.item}>
             <LinkScroll
+              index={index}
               to={item.to}
               smooth={item.smooth}
               duration={item.duration}

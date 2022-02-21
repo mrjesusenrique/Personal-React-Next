@@ -6,10 +6,11 @@ const NavbarResponsive = () => {
   return (
     <div className={stylesNavResp.sidebar}>
       <ul>
-        {items.map((item) => {
+        {items.map((item, index) => {
           return (
             <li>
               <LinkScroll
+              index={index}
                 to={item.to}
                 smooth={item.smooth}
                 duration={item.duration}

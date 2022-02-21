@@ -23,6 +23,10 @@
   line-height: 15px;
 }
 
+.title {
+  margin-top: 0px;
+}
+
 .carreraE:hover {
   color: #0099ff;
   border-bottom: 2px solid #0099ff;
