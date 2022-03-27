@@ -1,5 +1,6 @@
 import styles from "../../../../styles/Skills.module.css";
 import Fade from "react-reveal/Fade";
+import backItems from "../../../../utilities/backItems";
 
 const BackSkills = () => {
   return (
@@ -10,17 +11,9 @@ const BackSkills = () => {
       <div className={styles.contentBackSkills}>
         <Fade bottom cascade>
           <ul>
-            <li>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem
-              ipsum dolor sit, amet consectetur adipisicing elit.
-            </li>
-            <li>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem
-              ipsum dolor sit, amet consectetur adipisicing elit.
-            </li>
-            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+            {backItems.map((item) => {
+              return <li key={item.key}>{item.text}</li>;
+            })}
           </ul>
         </Fade>
       </div>

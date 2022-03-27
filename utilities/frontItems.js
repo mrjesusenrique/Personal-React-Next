@@ -1,21 +1,21 @@
 import { uid } from "./functions/uid";
 
-const frontitems = [
+const frontItems = [
   {
     key: uid(324, 234123),
-    text: "Estructura, desarrollo y mantenimiento de la parte visual de una app web",
+    text: "Estructura, desarrollo y mantenimiento de la parte visual de una aplicación web",
   },
   {
     key: uid(3242, 123123),
-    text: "Performance y optimización en tiempos de espera e interfaces de usuario",
+    text: "Performance y optimización en tiempos de carga e interfaces de usuario",
   },
   {
     key: uid(956, 897),
-    text: "Favorecer la fácil navegación, usabilidad e interación del usuario con el sitio web",
+    text: "Favorecer la fácil navegación, usabilidad e interacción del usuario con el sitio web",
   },
   {
     key: uid(554, 621233),
-    text: "Desarrollo adaptado a distintos tamaños de pantalla y dispositivos",
+    text: "Desarrollo adaptado a distintos dispositivos y tamaños de pantalla",
   },
   {
     key: uid(1212, 34546),
@@ -23,4 +23,4 @@ const frontitems = [
   },
 ];
 
-export default frontitems;
+export default frontItems;

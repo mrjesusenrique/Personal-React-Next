@@ -8,12 +8,9 @@ const ImgAcademico = () => {
         <figure>
           <img
             className={styles.img}
-            src="/images/profile_photo.jpeg"
-            alt="profile picture"
+            src="/images/academico.png"
+            alt="academico"
           />
-          <figcaption className={styles.fig}>
-            Buenos Aires, Argentina 2021
-          </figcaption>
         </figure>
       </div>
     </Fade>

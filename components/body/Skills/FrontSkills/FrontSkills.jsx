@@ -1,6 +1,6 @@
 import styles from "../../../../styles/Skills.module.css";
 import Fade from "react-reveal/Fade";
-import frontitems from "../../../../utilities/frontItems";
+import frontItems from "../../../../utilities/frontItems";
 
 const FrontSkills = () => {
   return (
@@ -11,7 +11,7 @@ const FrontSkills = () => {
       <div className={styles.contentFrontSkills}>
         <Fade top cascade>
           <ul>
-            {frontitems.map((item) => {
+            {frontItems.map((item) => {
               return <li key={item.key}>{item.text}</li>;
             })}
           </ul>
