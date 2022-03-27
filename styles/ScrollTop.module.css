@@ -14,9 +14,7 @@
   width: 2rem;
 }
 
-/* ----------------------------------------------------- Responsive --------------------------------------------------*/
-
-@media (max-width: 712px) {
+@media tv and (max-width: 712px) and (orientation: landscape) {
   .anchorScrolltop {
     right: -15px;
   }

@@ -34,9 +34,7 @@
   transform: scale(1.2);
 }
 
-/* ----------------------------------------------------- Responsive --------------------------------------------------*/
-
-@media (max-width: 712px) {
+@media tv and (max-width: 712px) and (orientation: landscape) {
   .container {
     right: 0.25rem;
   }
