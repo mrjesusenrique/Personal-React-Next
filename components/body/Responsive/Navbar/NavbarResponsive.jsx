@@ -8,9 +8,9 @@ const NavbarResponsive = () => {
       <ul>
         {items.map((item, index) => {
           return (
-            <li>
+            <li key={item.key}>
               <LinkScroll
-              index={index}
+                index={index}
                 to={item.to}
                 smooth={item.smooth}
                 duration={item.duration}

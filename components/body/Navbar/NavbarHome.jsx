@@ -7,7 +7,7 @@ const NavbarHome = () => {
     <>
       {items.map((item, index) => {
         return (
-          <li className={stylesIndex.item}>
+          <li className={stylesIndex.item} key={item.key}>
             <LinkScroll
               index={index}
               to={item.to}
