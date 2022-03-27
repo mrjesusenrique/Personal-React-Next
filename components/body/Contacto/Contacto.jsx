@@ -45,7 +45,7 @@ const contacto = () => {
           </div>
 
           <div className={styles.red}>
-            <Link href="#">
+            <Link href="mailto:jesusenrique9773@gmail.com">
               <a target="_black">
                 <img
                   className={styles.img}
