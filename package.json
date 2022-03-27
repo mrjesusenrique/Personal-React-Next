@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "next": "9.5.3",
-    "react": "16.13.1",
+    "react": "^17.0.2",
     "react-dom": "16.13.1",
     "react-reveal": "^1.2.2",
     "react-scroll": "^1.8.3"
