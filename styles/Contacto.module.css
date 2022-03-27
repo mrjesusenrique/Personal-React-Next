@@ -34,7 +34,7 @@
   transform: scale(1.2);
 }
 
-@media tv and (max-width: 712px) and (orientation: landscape) {
+@media (max-width: 712px) {
   .container {
     right: 0.25rem;
   }

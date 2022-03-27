@@ -14,7 +14,7 @@
   width: 2rem;
 }
 
-@media tv and (max-width: 712px) and (orientation: landscape) {
+@media (max-width: 712px) {
   .anchorScrolltop {
     right: -15px;
   }
