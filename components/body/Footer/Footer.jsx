@@ -1,7 +1,12 @@
+import { useState, useEffect } from "react";
 import styles from "../../../styles/Footer.module.css";
 
 const Footer = () => {
-  const actualYear = new Date().getFullYear();
+  const [actualYear, setActualYear] = useState(null);
+
+  useEffect(() => {
+    setActualYear(new Date().getFullYear());
+  }, []);
 
   return (
     <footer className={styles.footer}>

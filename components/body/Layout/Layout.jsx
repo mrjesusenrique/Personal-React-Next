@@ -1,4 +1,3 @@
-import React from "react";
 import Head from "next/head";
 import Header from "../Header/Header";
 import { useRouter } from "next/router";
@@ -6,10 +5,10 @@ import Footer from "../Footer/Footer";
 import styles from "../../../styles/Layout.module.css";
 
 const Layout = ({ children }) => {
+  const router = useRouter();
+
   const titleHome = "Jesús Casañas | Sitio Web Oficial";
   const titleOther = " | Jesús Casañas";
-
-  const router = useRouter();
 
   const title = (string) => {
     let newTitle = clean(string);

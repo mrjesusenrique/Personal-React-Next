@@ -1,3 +1,4 @@
+import { useRef } from "react";
 import { useRouter } from "next/router";
 import stylesIndex from "../../../styles/HeaderIndex.module.css";
 import stylesOther from "../../../styles/HeaderOther.module.css";
@@ -10,10 +11,10 @@ import NavbarResponsive from "../Responsive/Navbar/NavbarResponsive";
 
 const Header = () => {
   const router = useRouter();
+  const toggleSidebar = useRef(null);
 
-  const showSidebar = () => {
-    const sidebar = document.getElementById("sidebarFull");
-    sidebar.classList.toggle(`${stylesNavResp.visibleSidebar}`);
+  const handleToggleSidebar = () => {
+    toggleSidebar.current.classList.toggle(`${stylesNavResp.visibleSidebar}`);
   };
 
   return (
@@ -45,10 +46,10 @@ const Header = () => {
             </ul>
           )}
         </nav>
-        <ButtonMenu onClick={showSidebar} />
+        <ButtonMenu onClick={handleToggleSidebar} />
       </header>
 
-      <nav className={stylesNavResp.visibleSidebar} id="sidebarFull">
+      <nav className={stylesNavResp.visibleSidebar} ref={toggleSidebar}>
         <NavbarResponsive />
       </nav>
     </>

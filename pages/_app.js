@@ -1,12 +1,13 @@
-import React from 'react';
-import '../styles/globals.css'
+import React from "react";
+import "../styles/globals.css";
+import NoSsr from "@mui/base/NoSsr";
 
-function MyApp({ Component, pageProps }) {
+function App({ Component, pageProps }) {
   return (
-    <>
+    <NoSsr>
       <Component {...pageProps} />
-    </>
+    </NoSsr>
   );
-};
+}
 
-export default MyApp;
+export default App;
