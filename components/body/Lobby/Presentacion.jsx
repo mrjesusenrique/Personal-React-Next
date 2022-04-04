@@ -6,7 +6,7 @@ const Presentacion = () => {
   return (
     <Fade>
       <div className={styles.welcome}>
-        <h1>
+        <h1 className={styles.name}>
           Hola! Soy <strong>Jesús Casañas</strong>
         </h1>
         <h1 className={styles.title}>Desarrollador Web Full Stack.</h1>
