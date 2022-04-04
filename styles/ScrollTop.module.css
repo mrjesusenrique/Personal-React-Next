@@ -15,7 +15,18 @@
 }
 
 @media (max-width: 712px) {
+  .contentScrollTop {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -3rem;
+    margin-top: 1rem;
+  }
+
   .anchorScrolltop {
-    right: -15px;
+    position: relative;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 }

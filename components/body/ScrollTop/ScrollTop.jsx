@@ -9,6 +9,7 @@ const ScrollTop = () => {
           <img
             className={styles.imgScrollTop}
             src="/images/flecha-arriba.svg"
+            title="Volver arriba"
           />
         </LinkScroll>
       </a>

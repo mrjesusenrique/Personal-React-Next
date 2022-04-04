@@ -36,6 +36,7 @@
 
 @media (max-width: 712px) {
   .container {
+    display: none;
     right: 0.25rem;
   }
 }
