@@ -1,5 +1,6 @@
 import styles from "../../../styles/ScrollTop.module.css";
 import { Link as LinkScroll } from "react-scroll";
+import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 
 const ScrollTop = () => {
   return (
@@ -10,11 +11,7 @@ const ScrollTop = () => {
         duration={2500}
         className={styles.anchorScrolltop}
       >
-        <img
-          className={styles.imgScrollTop}
-          src="/images/flecha-arriba.svg"
-          title="Volver arriba"
-        />
+        <ArrowUpwardIcon className={styles.imgScrollTop} />
       </LinkScroll>
     </div>
   );
