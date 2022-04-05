@@ -1,19 +1,18 @@
 .btnMenu {
   display: none;
-  width: 2rem;
-  height: 2rem;
-  position: absolute;
+  width: 2.5rem;
+  height: 2.5rem;
+  position: relative;
+  right: 2rem;
   top: 2rem;
-  right: 1.5rem;
   cursor: pointer;
+  color: #54a1ff;
 }
 
 .ImgMenu {
-  width: 100%;
-  height: 100%;
+  width: 100% !important;
+  height: 100% !important;
 }
-
-/* ---------------------------------------------------------- Responsive -------------------------------------------------------- */
 
 @media (max-width: 730px) {
   .btnMenu {

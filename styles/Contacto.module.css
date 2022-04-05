@@ -34,7 +34,7 @@
   transform: scale(1.2);
 }
 
-@media (max-width: 712px) {
+@media (max-width: 730px) {
   .container {
     position: relative;
     right: 0;

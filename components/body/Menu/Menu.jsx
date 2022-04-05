@@ -1,9 +1,10 @@
 import styles from "../../../styles/Menu.module.css";
+import MenuIcon from "@mui/icons-material/Menu";
 
 const Menu = ({ onClick }) => {
   return (
     <a className={styles.btnMenu} onClick={onClick}>
-      <img className={styles.ImgMenu} src="images/icon_navbar/menu.svg" />
+      <MenuIcon className={styles.ImgMenu} />
     </a>
   );
 };
