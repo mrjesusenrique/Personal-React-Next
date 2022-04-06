@@ -42,3 +42,23 @@
     justify-content: center;
   }
 }
+
+@media (max-width: 499px) {
+  .sidebar {
+    height: 80vh;
+    margin: 30px 30px 30px 30px;
+  }
+
+  .sidebar ul {
+    width: 100%;
+  }
+
+  .sidebar ul li {
+    border-radius: 1rem;
+    transition: 0.2s;
+    width: 100%;
+    height: 8rem;
+    font-size: 2rem;
+    line-height: 8rem;
+  }
+}

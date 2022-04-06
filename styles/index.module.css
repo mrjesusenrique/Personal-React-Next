@@ -175,6 +175,23 @@
 }
 
 @media (max-width: 499px) {
+  .index {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../public/images/fondo.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+  }
+
+  .name {
+    font-size: 3rem !important;
+  }
+
+  .title {
+    font-size: 3rem !important;
+  }
+
   .intro {
     font-size: 2rem;
   }
@@ -186,5 +203,6 @@
   .welcome {
     text-align: center;
     width: 87vh;
+    margin-top: 3rem;
   }
 }
