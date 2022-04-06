@@ -58,6 +58,13 @@
   }
 }
 
+@media (max-width: 499px) {
+  .welcome {
+    text-align: center;
+    width: 84vh;
+  }
+}
+
 @media (max-height: 660px) and (max-width: 2000px) {
   .welcome {
     display: block;

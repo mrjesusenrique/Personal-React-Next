@@ -29,3 +29,9 @@ a {
 ::-webkit-scrollbar-thumb {
   background-color: #6438f0;
 }
+
+@media (max-width: 499px) {
+  body {
+    width: 100vh;
+  }
+}
