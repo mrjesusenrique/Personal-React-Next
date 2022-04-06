@@ -167,3 +167,27 @@
     width: 25rem;
   }
 }
+
+@media (max-width: 499px) {
+  .contenedorParrafo {
+    width: 100%;
+  }
+
+  .parrafo {
+    position: relative;
+    left: 20px;
+    line-height: 45px;
+    font-size: 1.7rem;
+  }
+
+  .contenedorParrafoLaboral {
+    width: 100%;
+  }
+
+  .parrafoLaboral {
+    position: relative;
+    left: 20px;
+    line-height: 45px;
+    font-size: 1.7rem;
+  }
+}
