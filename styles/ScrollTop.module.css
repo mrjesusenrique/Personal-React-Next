@@ -48,3 +48,10 @@
     justify-content: center;
   }
 }
+
+@media (max-width: 499px) {
+  .imgScrollTop {
+    width: 3rem !important;
+    height: 3rem !important;
+  }
+}

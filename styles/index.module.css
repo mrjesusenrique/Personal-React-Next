@@ -173,3 +173,18 @@
     font-size: 20px;
   }
 }
+
+@media (max-width: 499px) {
+  .intro {
+    font-size: 2rem;
+  }
+
+  .intro p {
+    line-height: 3rem;
+  }
+
+  .welcome {
+    text-align: center;
+    width: 87vh;
+  }
+}

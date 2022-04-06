@@ -79,3 +79,11 @@
     transition: 0.5s;
   }
 }
+
+@media (max-width: 499px) {
+  .red .img {
+    width: 55%;
+    height: 55%;
+    transition: 0.5s;
+  }
+}
