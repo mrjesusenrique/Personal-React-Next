@@ -3,7 +3,7 @@ import { uid } from "./functions/uid";
 const frontItems = [
   {
     key: uid(324, 234123),
-    text: "Estructura, desarrollo y mantenimiento de la parte visual de una aplicación web",
+    text: "Estructura, desarrollo y mantenimiento de la capa visual de una aplicación web",
   },
   {
     key: uid(3242, 123123),
