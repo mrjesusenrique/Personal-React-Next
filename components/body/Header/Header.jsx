@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useState } from "react";
 import { useRouter } from "next/router";
 import stylesIndex from "../../../styles/HeaderIndex.module.css";
 import stylesOther from "../../../styles/HeaderOther.module.css";
@@ -10,11 +10,11 @@ import stylesNavResp from "../../../styles/NavbarResponsive.module.css";
 import NavbarResponsive from "../Responsive/Navbar/NavbarResponsive";
 
 const Header = () => {
+  const [toggleSidebar, setToggleSidebar] = useState(false);
   const router = useRouter();
-  const toggleSidebar = useRef(null);
 
   const handleToggleSidebar = () => {
-    toggleSidebar.current.classList.toggle(`${stylesNavResp.visibleSidebar}`);
+    setToggleSidebar(!toggleSidebar);
   };
 
   return (
@@ -49,9 +49,14 @@ const Header = () => {
         <ButtonMenu onClick={handleToggleSidebar} />
       </header>
 
-      <nav className={stylesNavResp.visibleSidebar} ref={toggleSidebar}>
-        <NavbarResponsive />
-      </nav>
+      {toggleSidebar ? (
+        <nav className={stylesNavResp.sidebar}>
+          <NavbarResponsive
+            toggleSidebar={toggleSidebar}
+            setToggleSidebar={setToggleSidebar}
+          />
+        </nav>
+      ) : null}
     </>
   );
 };
