@@ -11,6 +11,12 @@
       "languageButton": {
         "title": "Idioma"
       }
+    },
+    "presentationLobby": {
+      "presentationName": "Hola! Soy <strong>Jesús Casañas</strong>",
+      "presentationDev": "Desarrollador Web Full Stack.",
+      "trainedIn": "Formado en",
+      "currentStudies": "Estudiante de Tecnicatura Superior en Análisis de Sistemas en"
     }
   }
 }

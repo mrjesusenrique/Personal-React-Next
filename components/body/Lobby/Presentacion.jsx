@@ -1,19 +1,28 @@
 import styles from "../../../styles/index.module.css";
 import Link from "next/link";
 import Fade from "react-reveal/Fade";
+import { useTranslation } from "react-i18next";
 
 const Presentacion = () => {
+  const { t } = useTranslation();
+
   return (
     <Fade>
       <div className={styles.welcome}>
-        <h1 className={styles.name}>
-          Hola! Soy <strong>Jesús Casañas</strong>
+        <h1
+          className={styles.name}
+          dangerouslySetInnerHTML={{
+            __html: t("presentationLobby.presentationName"),
+          }}
+        />
+
+        <h1 className={styles.title}>
+          {t("presentationLobby.presentationDev")}
         </h1>
-        <h1 className={styles.title}>Desarrollador Web Full Stack.</h1>
 
         <div className={styles.intro}>
           <p>
-            Formado en{" "}
+            {t("presentationLobby.trainedIn")}{" "}
             <Link href="https://www.educacionit.com/">
               <a target="_blanck" className={styles.carreraE}>
                 EducaciónIT
@@ -22,7 +31,7 @@ const Presentacion = () => {
             .
           </p>
           <p>
-            Estudiante de Tecnicatura Superior en Análisis de Sistemas en{" "}
+            {t("presentationLobby.currentStudies")}{" "}
             <Link href="https://www.istea.edu.ar/">
               <a target="_blanck" className={styles.carreraU}>
                 ISTEA
