@@ -6,11 +6,9 @@ import languages from "../assets/locales";
 const availableLanguages = ["es", "en"];
 let fallbacking;
 
-if (typeof window !== "undefined") {
-  fallbacking = localStorage.getItem("i18nextLng");
-} else {
-  fallbacking = "es";
-}
+typeof window !== "undefined"
+  ? (fallbacking = localStorage.getItem("i18nextLng"))
+  : (fallbacking = "es");
 
 i18next
   .use(LanguageDetector)

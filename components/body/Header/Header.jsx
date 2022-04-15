@@ -8,6 +8,7 @@ import NavbarBlog from "../Navbar/NavbarBlog";
 import ButtonMenu from "../Menu/Menu";
 import stylesNavResp from "../../../styles/NavbarResponsive.module.css";
 import NavbarResponsive from "../Responsive/Navbar/NavbarResponsive";
+import TranslateButton from "../TranslateButton/TranslateButton";
 
 const Header = () => {
   const [toggleSidebar, setToggleSidebar] = useState(false);
@@ -35,17 +36,20 @@ const Header = () => {
             </Link>
           )}
         </div>
-        <nav className={stylesIndex.nav}>
-          {router.pathname === "/" ? (
-            <ul className={stylesIndex.list}>
-              <NavbarHome />
-            </ul>
-          ) : (
-            <ul className={stylesIndex.list}>
-              <NavbarBlog />
-            </ul>
-          )}
-        </nav>
+        <div className={stylesIndex.contentButtonLanguage}>
+          <nav className={stylesIndex.nav}>
+            {router.pathname === "/" ? (
+              <ul className={stylesIndex.list}>
+                <NavbarHome />
+              </ul>
+            ) : (
+              <ul className={stylesIndex.list}>
+                <NavbarBlog />
+              </ul>
+            )}
+          </nav>
+          <TranslateButton />
+        </div>
         <ButtonMenu onClick={handleToggleSidebar} />
       </header>
 

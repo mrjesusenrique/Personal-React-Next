@@ -1,8 +1,11 @@
 import stylesIndex from "../../../styles/HeaderIndex.module.css";
 import items from "../../../utilities/items";
 import { Link as LinkScroll } from "react-scroll";
+import { useTranslation } from "react-i18next";
 
 const NavbarHome = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       {items.map((item, index) => {
@@ -15,7 +18,7 @@ const NavbarHome = () => {
               duration={item.duration}
               style={{ cursor: "pointer" }}
             >
-              {item.title}
+              {t(`header.navBar.${item.title}`)}
             </LinkScroll>
           </li>
         );

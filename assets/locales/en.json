@@ -1,5 +1,16 @@
 {
   "translation": {
-    "title": "Hello"
+    "header": {
+      "navBar": {
+        "home": "Home",
+        "academic": "Academic",
+        "labor": "Career",
+        "skills": "Skills",
+        "stack": "Stack"
+      },
+      "languageButton": {
+        "title": "Language"
+      }
+    }
   }
 }

@@ -1,8 +1,11 @@
 import stylesNavResp from "../../../../styles/NavbarResponsive.module.css";
 import items from "../../../../utilities/items";
 import { Link as LinkScroll } from "react-scroll";
+import { useTranslation } from "react-i18next";
 
 const NavbarResponsive = ({ setToggleSidebar }) => {
+  const { t } = useTranslation();
+
   const itemClick = () => {
     setToggleSidebar(false);
   };
@@ -21,7 +24,7 @@ const NavbarResponsive = ({ setToggleSidebar }) => {
                 className={stylesNavResp.item}
                 onClick={itemClick}
               >
-                {item.title}
+                {t(`header.navBar.${item.title}`)}
               </LinkScroll>
             </li>
           );

@@ -1,5 +1,16 @@
 {
   "translation": {
-    "title": "Hola"
+    "header": {
+      "navBar": {
+        "home": "Inicio",
+        "academic": "Académico",
+        "labor": "Carrera Profesional",
+        "skills": "Skills",
+        "stack": "Stack"
+      },
+      "languageButton": {
+        "title": "Idioma"
+      }
+    }
   }
 }
