@@ -1,4 +1,5 @@
-import { useRef } from "react";
+import { useRef, useContext } from "react";
+import { LanguageContext } from "../../../context/LanguageContext";
 import { useTranslation } from "react-i18next";
 import styles from "../../../styles/TranslateButton.module.css";
 
@@ -6,6 +7,7 @@ const TranslateButton = () => {
   const { t } = useTranslation();
   const languageTag = useRef();
   const currentLanguage = localStorage.getItem("i18nextLng");
+  const { handleLanguage } = useContext(LanguageContext);
 
   const changeTitleEnterLanguage = () => {
     currentLanguage == "es"
@@ -28,6 +30,7 @@ const TranslateButton = () => {
       className={styles.button}
       onMouseEnter={changeTitleEnterLanguage}
       onMouseLeave={changeTitleOutLanguage}
+      onClick={() => handleLanguage(currentLanguage == "es" ? "en" : "es")}
     >
       <div className={styles.contentItems}>
         <span className={styles.text}>{t(`header.languageButton.title`)}</span>

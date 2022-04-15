@@ -9,16 +9,14 @@ import ScrollTop from "../components/body/ScrollTop/ScrollTop";
 
 export default function Home() {
   return (
-    <div>
-      <Layout>
-        <Lobby />
-        <SobreMiAcademico />
-        <SobreMiLaboral />
-        <Skills />
-        <Stack />
-        <Contacto />
-        <ScrollTop />
-      </Layout>
-    </div>
+    <Layout>
+      <Lobby />
+      <SobreMiAcademico />
+      <SobreMiLaboral />
+      <Skills />
+      <Stack />
+      <Contacto />
+      <ScrollTop />
+    </Layout>
   );
 }
