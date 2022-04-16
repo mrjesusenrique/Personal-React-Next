@@ -85,6 +85,76 @@
 
 @media (max-width: 730px) {
   .button {
+    position: relative;
+    left: 12rem;
+    display: flex;
+    justify-content: center;
+    width: 4rem;
+    height: 2.5rem;
+    margin-top: 1.95rem;
+    transition: 0.5s;
+  }
+
+  .button:hover {
+    background: #2aaaff;
+    transition: 0.5s;
+  }
+
+  .button .text {
     display: none;
+  }
+
+  .button .icon {
+    border-left: none;
+    transform: translateX(0px);
+  }
+
+  .button:hover .icon {
+    width: 150px;
+    transform: 0;
+    border-left: none;
+    transform: translateX(0px);
+  }
+
+  .incompleteEnglish::after {
+    content: "ING";
+    color: black;
+    display: block;
+  }
+
+  .completeEnglish::after {
+    content: "ING";
+    color: black;
+    display: block;
+  }
+
+  .incompleteSpanish::after {
+    content: "SPA";
+    color: black;
+    display: block;
+  }
+
+  .completeSpanish::after {
+    content: "SPA";
+    color: black;
+    display: block;
+  }
+}
+
+@media (max-width: 695px) {
+  .button {
+    left: 9rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .button {
+    left: 7rem;
+  }
+}
+
+@media (max-width: 530px) {
+  .button {
+    left: 5rem;
   }
 }
