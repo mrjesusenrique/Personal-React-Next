@@ -3,11 +3,13 @@ import Header from "../Header/Header";
 import { useRouter } from "next/router";
 import Footer from "../Footer/Footer";
 import styles from "../../../styles/Layout.module.css";
+import { useTranslation } from "react-i18next";
 
 const Layout = ({ children }) => {
+  const { t } = useTranslation();
   const router = useRouter();
 
-  const titleHome = "Jesús Casañas | Sitio Web Oficial";
+  const titleHome = t("meta.homeTitle");
   const titleOther = " | Jesús Casañas";
 
   const title = (string) => {
@@ -35,8 +37,7 @@ const Layout = ({ children }) => {
             ? titleHome
             : title(router.pathname) + titleOther}
         </title>
-
-        <meta name="description" content="" />
+        <meta name="description" content={t("meta.contentDescription")} />
       </Head>
 
       {router.pathname === "/" ? (

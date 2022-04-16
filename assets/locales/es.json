@@ -1,5 +1,9 @@
 {
   "translation": {
+    "meta": {
+      "homeTitle": "Jesús Casañas | Sitio Web Oficial",
+      "contentDescription": "Sitio Web Personal"
+    },
     "header": {
       "navBar": {
         "home": "Inicio",
