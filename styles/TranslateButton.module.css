@@ -65,6 +65,17 @@
   justify-content: center;
 }
 
+.button .iconSpa {
+  position: absolute;
+  border-left: 1px solid black;
+  transform: translateX(85px);
+  height: 40px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .button:hover {
   background: #0099ff;
 }
@@ -76,7 +87,13 @@
 .button:hover .icon {
   width: 150px;
   border-left: none;
-  transform: translateX(60px);
+  transform: translateX(39%);
+}
+
+.button:hover .iconSpa {
+  width: 150px;
+  border-left: none;
+  transform: translateX(33%);
 }
 
 .button:focus {
@@ -109,7 +126,19 @@
     transform: translateX(0px);
   }
 
+  .button .iconSpa {
+    border-left: none;
+    transform: translateX(0px);
+  }
+
   .button:hover .icon {
+    width: 150px;
+    transform: 0;
+    border-left: none;
+    transform: translateX(0px);
+  }
+
+  .button:hover .iconSpa {
     width: 150px;
     transform: 0;
     border-left: none;

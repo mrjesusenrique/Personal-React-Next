@@ -34,7 +34,11 @@ const TranslateButton = () => {
     >
       <div className={styles.contentItems}>
         <span className={styles.text}>{t(`header.languageButton.title`)}</span>
-        <span className={styles.icon}>
+        <span
+          className={`${
+            currentLanguage == "es" ? styles.icon : styles.iconSpa
+          }`}
+        >
           <span
             className={`${
               currentLanguage == "es"

@@ -53,6 +53,16 @@
   height: auto;
 }
 
+@media (max-width: 800px) {
+  .logoPersonal {
+    left: 25px;
+  }
+
+  .nav {
+    right: 1.7rem;
+  }
+}
+
 @media (max-width: 730px) {
   .nav {
     display: none;
