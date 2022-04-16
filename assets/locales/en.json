@@ -17,6 +17,10 @@
       "presentationDev": "Full Stack Web Developer.",
       "trainedIn": "Trained in",
       "currentStudies": "Higher Technical Student in Systems Analysis at"
+    },
+    "footer": {
+      "copy": "&copy; Copyright",
+      "name": "Developed by <strong>Jesús Casañas</strong>."
     }
   }
 }

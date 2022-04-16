@@ -187,3 +187,10 @@
     left: 5rem;
   }
 }
+
+@media (max-width: 414px) {
+  .button {
+    top: 1rem;
+    right: 0;
+  }
+}

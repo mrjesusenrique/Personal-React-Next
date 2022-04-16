@@ -17,6 +17,10 @@
       "presentationDev": "Desarrollador Web Full Stack.",
       "trainedIn": "Formado en",
       "currentStudies": "Estudiante de Tecnicatura Superior en Análisis de Sistemas en"
+    },
+    "footer": {
+      "copy": "&copy; Copyright",
+      "name": "Desarrollado por <strong>Jesús Casañas</strong>."
     }
   }
 }
