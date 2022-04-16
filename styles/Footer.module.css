@@ -4,14 +4,16 @@
   text-align: center;
   line-height: 4rem;
   color: white;
-  background-color: #59585f;
+  background-color: #707072;
   font-weight: bold;
+  border-top-right-radius: 17rem 10rem;
 }
 
 @media (max-width: 695px) {
   .footer {
     position: relative;
     top: 5vh;
+    border-top-right-radius: 10rem 8rem;
   }
 }
 
