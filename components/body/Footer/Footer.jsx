@@ -14,8 +14,7 @@ const Footer = () => {
     <footer
       className={styles.footer}
       dangerouslySetInnerHTML={{
-        __html:
-          t("footer.copy") + " " + `${actualYear}.` + " " + t("footer.name"),
+        __html: `${t("footer.copy")} ${actualYear}. ${t("footer.name")}`,
       }}
     />
   );
