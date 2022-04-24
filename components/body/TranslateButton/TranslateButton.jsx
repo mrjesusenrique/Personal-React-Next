@@ -10,7 +10,7 @@ const TranslateButton = () => {
   const { handleLanguage } = useContext(LanguageContext);
 
   const changeTitleEnterLanguage = () => {
-    currentLanguage == "es"
+    currentLanguage == "es" || currentLanguage == "es-AR"
       ? (languageTag.current.classList.remove(`${styles.incompleteEnglish}`),
         languageTag.current.classList.add(`${styles.completeEnglish}`))
       : (languageTag.current.classList.remove(`${styles.incompleteSpanish}`),
@@ -18,7 +18,7 @@ const TranslateButton = () => {
   };
 
   const changeTitleOutLanguage = () => {
-    currentLanguage == "es"
+    currentLanguage == "es" || currentLanguage == "es-AR"
       ? (languageTag.current.classList.remove(`${styles.completeEnglish}`),
         languageTag.current.classList.add(`${styles.incompleteEnglish}`))
       : (languageTag.current.classList.remove(`${styles.completeSpanish}`),
@@ -30,18 +30,24 @@ const TranslateButton = () => {
       className={styles.button}
       onMouseEnter={changeTitleEnterLanguage}
       onMouseLeave={changeTitleOutLanguage}
-      onClick={() => handleLanguage(currentLanguage == "es" ? "en" : "es")}
+      onClick={() =>
+        handleLanguage(
+          currentLanguage == "es" || currentLanguage == "es-AR" ? "en" : "es"
+        )
+      }
     >
       <div className={styles.contentItems}>
         <span className={styles.text}>{t(`header.languageButton.title`)}</span>
         <span
           className={`${
-            currentLanguage == "es" ? styles.icon : styles.iconSpa
+            currentLanguage == "es" || currentLanguage == "es-AR"
+              ? styles.icon
+              : styles.iconSpa
           }`}
         >
           <span
             className={`${
-              currentLanguage == "es"
+              currentLanguage == "es" || currentLanguage == "es-AR"
                 ? styles.incompleteEnglish
                 : styles.incompleteSpanish
             }`}
