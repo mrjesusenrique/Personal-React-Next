@@ -22,6 +22,20 @@
       "trainedIn": "Trained in",
       "currentStudies": "Higher Technical Student in Systems Analysis at"
     },
+    "frontSkills": {
+      "a": "Visual layer web application structure, development and maintenance",
+      "b": "Performance and optimization in load times and user interfaces",
+      "c": "Promote easy navigation, usability and user interaction with the website",
+      "d": "Development adapted to different devices and screen sizes",
+      "e": "Search engine optimization (SEO)"
+    },
+    "backSkills": {
+      "a": "Application Programming Interface (API) structure, development and maintenance",
+      "b": "Web server creation and integration",
+      "c": "NoSQL Database creation, integration and maintenance",
+      "d": "Database storage and consultation",
+      "e": "Authentication, data exchange secure way between client and server"
+    },
     "footer": {
       "copy": "&copy; Copyright",
       "name": "Developed by <strong>Jesús Casañas</strong>."

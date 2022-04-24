@@ -22,6 +22,20 @@
       "trainedIn": "Formado en",
       "currentStudies": "Estudiante de Tecnicatura Superior en Análisis de Sistemas en"
     },
+    "frontSkills": {
+      "a": "Estructura, desarrollo y mantenimiento de la capa visual de una aplicación web",
+      "b": "Performance y optimización en tiempos de carga e interfaces de usuario",
+      "c": "Favorecer la fácil navegación, usabilidad e interacción del usuario con el sitio web",
+      "d": "Desarrollo adaptado a distintos dispositivos y tamaños de pantalla",
+      "e": "Optimización en el posicionamiento de buscadores (SEO)"
+    },
+    "backSkills": {
+      "a": "Estructura, desarrollo y mantenimiento de Application Programming Interface (API)",
+      "b": "Creación e integración de servidor web",
+      "c": "Creación, integración y mantenimiento de Base de Datos NoSQL",
+      "d": "Almacenamiento y consulta a Base de Datos",
+      "e": "Autenticación, intercambio de datos entre cliente y servidor de manera segura"
+    },
     "footer": {
       "copy": "&copy; Copyright",
       "name": "Desarrollado por <strong>Jesús Casañas</strong>."
