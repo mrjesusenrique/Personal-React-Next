@@ -22,6 +22,23 @@
       "trainedIn": "Formado en",
       "currentStudies": "Estudiante de Tecnicatura Superior en Análisis de Sistemas en"
     },
+    "academic": {
+      "paragraph1": "En diciembre de 2014 inicié en Venezuela la carrera Tecnología Electrónica en la",
+      "university1": "Universidad Simón Bolívar - Sede Litoral",
+      "paragraph2": "donde cursé hasta aprobar el cuarto trimestre en marzo de 2018, pero dados los problemas de mi país me vi en la obligación de postergar mi avance acádemico y buscar suerte fuera de mis fronteras. Ya en noviembre del año 2019 decidí comenzar en el mundo del Desarrollo y Programación Web incursionando primero en HTML y CSS de la mano de",
+      "university2": "EducaciónIT",
+      "paragraph3": "donde estuve cursando la carrera Desarrollo Web Full Stack hasta julio de 2021. Actualmente me encuentro cursando el primer cuatrimestre de la carrera Tecnicatura Superior en Análisis de Sistemas en",
+      "university3": "ISTEA"
+    },
+    "profesional": {
+      "paragraph1": "Mi experiencia como profesional en el área ha transcurrido en dos importantes empresas, desempeñandome en proyectos innovadores y de trascendencia. La primera,",
+      "company1": "Itrio S.A.",
+      "paragraph2": "en sociedad con",
+      "company2": "Veritran",
+      "paragraph3": "desarrollando servicios e interfaces de usuario para el área financiera del mercado mexicano, junto a un equipo de trabajo multidisciplinario ubicado en distintas partes de Latinoamérica, en el lapso de tiempo comprendido desde noviembre 2020 hasta octubre 2021. Desde entonces formo parte del equipo de desarrollo de",
+      "company3": "Close-Up International S.A.",
+      "paragraph4": " desempeñandome como Desarrollador React en un proyecto del área farmacéutica que mezcla lo mejor de BI (Business Intelligence) con el poder que brinda una interfaz de usuario atractiva, intuitiva y adaptable a los distintos dispositivos."
+    },
     "frontSkills": {
       "a": "Estructura, desarrollo y mantenimiento de la capa visual de una aplicación web",
       "b": "Performance y optimización en tiempos de carga e interfaces de usuario",

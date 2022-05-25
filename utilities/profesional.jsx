@@ -1,37 +1,31 @@
 import styles from "../styles/Sobremi.module.css";
 import Link from "next/link";
+import { useTranslation } from "react-i18next";
 
 const Profesional = () => {
+  const { t } = useTranslation();
+
   return (
     <p className={styles.parrafoLaboral}>
-      Mi experiencia como profesional en el área ha transcurrido en dos
-      importantes empresas, desempeñandome en proyectos innovadores y de
-      trascendencia. La primera,{" "}
+      {t("profesional.paragraph1")}{" "}
       <Link href="https://www.itrio.net/">
         <a className={styles.link} target="_blanck">
-          Itrio S.A.
+          {t("profesional.company1")}
         </a>
       </Link>{" "}
-      en sociedad con{" "}
+      {t("profesional.paragraph2")}{" "}
       <Link href="https://www.veritran.com/">
         <a className={styles.link} target="_blanck">
-          Veritran
+          {t("profesional.company2")}
         </a>
       </Link>{" "}
-      desarrollando servicios e interfaces de usuario para el área financiera
-      del mercado mexicano, junto a un equipo de trabajo multidisciplinario
-      ubicado en distintas partes de Latinoamérica, en el lapso de tiempo
-      comprendido desde noviembre 2020 hasta octubre 2021. Desde octubre del año
-      pasado formo parte del equipo de desarrollo de{" "}
+      {t("profesional.paragraph3")}{" "}
       <Link href="https://www.close-upinternational.com/">
-        <a target="_blanck" className={styles.link}>
-          Close-Up International
+        <a className={styles.link} target="_blanck">
+          {t("profesional.company3")}
         </a>
       </Link>
-      , desempeñandome como desarrollador React en un proyecto del área
-      farmacéutica que mezcla lo mejor de BI <b>(Business Intelligence)</b> con
-      el poder que brinda una interfaz de usuario atractiva, intuitiva y
-      adaptable a los distintos dispositivos.
+      {t("profesional.paragraph4")}
     </p>
   );
 };

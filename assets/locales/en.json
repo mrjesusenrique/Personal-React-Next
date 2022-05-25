@@ -22,6 +22,23 @@
       "trainedIn": "Trained in",
       "currentStudies": "Higher Technical Student in Systems Analysis at"
     },
+    "academic": {
+      "paragraph1": "In December 2014 I started in Venezuela the Electronic Technology career at the",
+      "university1": "Simón Bolívar University - Litoral Campus",
+      "paragraph2": "where I studied until I passed the fourth trimester in March 2018, but given the problems in my country I was forced to postpone my academic progress and seek luck outside my country. Already in November of the year 2019 I decided to start in the world of Web Development and Programming, first venturing into HTML and CSS with the help of",
+      "university2": "EducaciónIT",
+      "paragraph3": "where I was studying the Full Stack Web Development career until July 2021. I am currently studying the first quarter of the Higher Technician in Systems Analysis career in",
+      "university3": "ISTEA"
+    },
+    "profesional": {
+      "paragraph1": "My experience as a professional in the area has taken place in two important companies, working on innovative and transcendent projects. The first,",
+      "company1": "Itrio S.A.",
+      "paragraph2": "in partnership with",
+      "company2": "Veritran",
+      "paragraph3": "developing services and user interfaces for the financial area of the Mexican market, together with a multidisciplinary work team located in different parts of Latin America, in the period of time from November 2020 to October 2021. Since then I have been part of the",
+      "company3": "Close-Up International S.A. ",
+      "paragraph4": "development team, working as a React Developer in a project in the pharmaceutical area that mixes the best of BI (Business Intelligence) with the power of an attractive, intuitive and adaptable user interface to different devices."
+    },
     "frontSkills": {
       "a": "Visual layer web application structure, development and maintenance",
       "b": "Performance and optimization in load times and user interfaces",
