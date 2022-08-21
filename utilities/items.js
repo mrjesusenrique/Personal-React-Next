@@ -23,6 +23,13 @@ const items = [
     title: "labor",
   },
   {
+    key: uid(67, 3268),
+    to: "portfolio",
+    smooth: true,
+    duration: 3200,
+    title: "portfolio",
+  },
+  {
     key: uid(457, 86767),
     to: "skills",
     smooth: true,

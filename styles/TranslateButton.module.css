@@ -100,7 +100,7 @@
   outline: none;
 }
 
-@media (max-width: 730px) {
+@media (max-width: 860px) {
   .button {
     position: relative;
     left: 12rem;

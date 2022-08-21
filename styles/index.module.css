@@ -45,6 +45,7 @@
   .welcome {
     position: absolute;
     top: 10.5rem;
+    align-self: center;
   }
 
   .welcome h1 {
