@@ -38,6 +38,7 @@ const Layout = ({ children }) => {
             : title(router.pathname) + titleOther}
         </title>
         <meta name="description" content={t("meta.contentDescription")} />
+        <link rel="shortcut icon" href="/favicon/favicon.ico" />
       </Head>
 
       {router.pathname === "/" ? (

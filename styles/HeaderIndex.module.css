@@ -15,14 +15,14 @@
   transition: 0.7s;
 }
 
-.colorLogo {
-  color: white;
-  font-size: 15px;
-}
-
 .logoPersonal:hover {
   transition: 0.7s;
   transform: scale(1.1);
+}
+
+.colorLogo {
+  color: #fff;
+  font-size: 15px;
 }
 
 .nav {
@@ -81,9 +81,5 @@
 @media (max-width: 499px) {
   .header {
     height: 8rem;
-  }
-
-  .colorLogo {
-    font-size: 1.5rem;
   }
 }
